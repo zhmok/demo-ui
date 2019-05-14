@@ -16,7 +16,7 @@
 | antd             | 阿里 ui 组件       | https://ant.design/index-cn/                  |
 | nprogress        | 超薄进度条加载组件 | https://github.com/rstacruz/nprogress         |
 | react-loadable   | react 加载组件     | https://github.com/jamiebuilds/react-loadable |
-
+| webpack          | 打包工具           | https://www.webpackjs.com/                    |
 
 
 ### 目录结构
