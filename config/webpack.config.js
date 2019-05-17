@@ -405,7 +405,11 @@ module.exports = function(webpackEnv) {
                 ],
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,
-                
+                plugins: [
+                  // 引入样式为 'css'
+                  // style为true 则默认引入less
+                  ['import', { libraryName: 'antd', style: true }],
+                ],
                 // If an error happens in a package, it's possible to be
                 // because it was compiled. Thus, we don't want the browser
                 // debugger to show the original code. Instead, the code
